@@ -16,7 +16,7 @@
             android:name=".ui.activities.SplashActivity"
             android:exported="true"
             android:label="@string/title_activity_splash"
-            android:theme="@style/Theme.Wellbeing.SplashScreen" >
+            android:theme="@style/Theme.Wellbeing.AnimatedSplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,6 @@
         <activity
             android:name=".ui.activities.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.Wellbeing" >
         </activity>
     </application>
